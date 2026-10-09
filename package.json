@@ -1,0 +1,17 @@
+{
+  "name": "kasada-solver",
+  "version": "1.0.0",
+  "description": "Kasada solver that mints and returns the x-kpsdk header set (ct, cd, h, v) + cookies. Node.js over raw CDP, real Chrome, any protected URL.",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.21.0"
+  }
+}

@@ -1,0 +1,11 @@
+services:
+  solver:
+    build: .
+    image: kasada-solver
+    ports:
+      - "8787:8787"
+    restart: unless-stopped
+    environment:
+      - MAX_CONCURRENT=2
+      - HIDDEN=1
+    shm_size: 1g
